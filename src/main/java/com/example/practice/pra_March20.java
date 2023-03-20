@@ -11,7 +11,7 @@ public class pra_March20 {
 		int numIndex = 0, count = 0;
 		for (;;) {
 			numIndex = skyDra.indexOf("明教", numIndex);
-			if (numIndex == -1) {
+			if (numIndex == -1) {  							//超過會顯示 -1
 				System.out.println("出現 "+count+" 次");
 				break;
 			}
